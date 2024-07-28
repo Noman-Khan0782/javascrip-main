@@ -37,5 +37,36 @@ console.log(convertBol4);
 // conver number to string 
 
 
+// ================operations===========================
 
+console.log("================operations===========================");
+let a="noman"
+let b="khan"
+
+console.log(a+b);
+
+// complex
+
+console.log(1 + "2");
+console.log("1"+ 2);
+console.log(1+1+"2");
+console.log("1"+"1" + 2);
+console.log("10"/"10");
+console.log(1+2*2/4);
+console.log((1+2)*(3/4));
+
+console.log("======================tricky===========");
+console.log(true);
+console.log(+true);
+console.log(-true);
+console.log(+false);
+console.log(+"");
+
+console.log("+-======================prefix and postfix===========");
+let num=11
+num++
+console.log(num);
+let num2=11
+++num2
+console.log(num2);
 
