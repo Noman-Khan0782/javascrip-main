@@ -3,6 +3,7 @@ var studentname= "Noman"
 let city = "Peshawar"
 university="city university"
 let password;
+let khan
 
 // studentId=4567
 
