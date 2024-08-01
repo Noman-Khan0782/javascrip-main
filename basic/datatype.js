@@ -5,6 +5,8 @@
 console.log("noman");
 console.log("khan");
 
+
+
 console.log(1 + 
     3); //code readability should be high
 

@@ -5,7 +5,7 @@ let bol= true
 
 // let {score}=req.body
 console.log(typeof score);
-console.log(typeof (score2));
+console.log(typeof (score2));//method
 
 let conversion = Number(score2)
 console.log(typeof (score2));//type string mean convert

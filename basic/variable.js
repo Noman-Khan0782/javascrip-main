@@ -1,3 +1,5 @@
+const { table } = require("console");
+
 const studentId=2345
 var studentname= "Noman" 
 let city = "Peshawar"
@@ -12,6 +14,7 @@ city="lahore"
 university="peshaware university"
 console.log(studentId);
 console.table([studentId,city,university,password])
+
 
 // notes
 /*
