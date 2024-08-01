@@ -18,8 +18,8 @@ console.log(null <= 1);
 console.log("=====================================");
 
 console.log(undefined == 0);
-console.log(undefined > 0);       //yeh sub jub hum loop and if else consition
-console.log(undefined < 0);       // parengy waha clear hojaiga
+console.log(undefined > 0);       
+console.log(undefined < 0);       
 console.log(undefined >= 0);
 
 

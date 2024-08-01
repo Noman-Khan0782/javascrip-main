@@ -29,5 +29,5 @@ function fun(){
     console.log("This is function");
 }
 fun();
-// console.log(function1);     // ECMAScript deka kary typeof and datatype  kleay (this is Assignment)
+// console.log(function1);     // ECMAScript 
 //https://262.ecma-international.org/5.1/index.html?_gl=1*jp0hpd*_ga*NTgwNzc0NDA5LjE3MjIxNjM3Nzg.*_ga_TDCK4DWEPP*MTcyMjU0MzEyNS4zLjAuMTcyMjU0MzEyNS4wLjAuMA..
