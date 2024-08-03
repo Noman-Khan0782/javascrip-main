@@ -26,11 +26,20 @@ console.log(forthnumber.toLocaleString('en-IN'));
 console.log("=====================Maths=========================");
 
 
-console.log(Math.abs(-8));//absolute conver negative num into positive
-console.log(Math.round(5.2)); //5
-console.log(Math.round(5.6)); //6
-console.log(Math.ceil(4.2)); //5
-console.log(Math.floor(4.6)); //4
+// console.log(Math.abs(-8));//absolute conver negative num into positive
+// console.log(Math.round(5.2)); //5
+// console.log(Math.round(5.6)); //6
+// console.log(Math.ceil(4.2)); //5
+// console.log(Math.floor(4.6)); //4
+
+console.log("//========random===========");
+
+console.log(Math.random());
+const min=1;
+const max=6;
+console.log(Math.floor(Math.random()*(max - min +1)+min));
+
+
 
 
 
