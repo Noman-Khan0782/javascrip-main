@@ -39,13 +39,11 @@ console.log(array.indexOf(1)); //0
 // const myArray= array.join(); // convert to string
 // console.log(myArray); //1,2,3,45,23
 // console.log(typeof myArray); // string
-
-// concat method
-
+console.log("concat method");
+ 
+console.log(array.concat(array2));
 // const concatArray= array.concat(array2); //combine to array
-
 // console.log(concatArray);
-
 console.log("A", array);
 //Slice AND splice
 
@@ -55,5 +53,33 @@ console.log("A", array);
 const newArray2=[9,8,7,6,5]
 console.log(newArray2.splice(1,4)); //include last index
 console.log(newArray2.slice(0,3)); //not include last index
+//find
+const findArray=[1,2,3,4,2];
+let d=findArray.find((num)=>num % 2===0);
+console.log(d); //2
+//filter
+const findArray1=[1,2,3,4,2];
+let d1=findArray1.filter((num)=>num % 2===0);
+console.log(d1);// [ 2, 4, 2 ]
+console.log(typeof d);
+
+//map and foreach
+console.log("============Map");
+// let map1=[1,2,3,4]
+// let newmap=map1.map((e)=> e*2); //Argument
+// console.log(newmap);
+
+console.log("============foreach==");
+let map1=[1,2,3,4]
+map1.forEach((e)=>{
+    console.log(e*2);    
+}); //Argument
+console.log(map1);
+
+
+
+
+
+
 
 

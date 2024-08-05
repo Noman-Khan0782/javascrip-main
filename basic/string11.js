@@ -42,6 +42,8 @@ console.log(url.includes('Noman'));
 //string convert to array
 const anotherName="Noman"
 console.log(anotherName.split('m'));
+console.log(anotherName.split());
+
 
 
 

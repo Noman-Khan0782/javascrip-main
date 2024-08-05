@@ -26,6 +26,8 @@ console.log(confusionArray.flat(Infinity));
 
 //isarray and from
 console.log(Array.isArray("Noman")); //false
+console.log(Array.isArray("[Noman]")); //false
+
 console.log(Array.from("Noman"));//[ 'N', 'o', 'm', 'a', 'n' ]
 console.log(Array.from({name:"Noman"}));//[] empty array
 
@@ -33,6 +35,8 @@ let v1=1;
 let v2=3;
 let v3=4;
 console.log(Array.of(v1,v2,v3));
+console.log(Array.of("Noman"));
+
 
 
 
