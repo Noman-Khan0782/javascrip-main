@@ -28,6 +28,8 @@ console.log(confusionArray.flat(Infinity));
 console.log(Array.isArray("Noman")); //false
 console.log(Array.isArray("[Noman]")); //false
 
+
+
 console.log(Array.from("Noman"));//[ 'N', 'o', 'm', 'a', 'n' ]
 console.log(Array.from({name:"Noman"}));//[] empty array
 

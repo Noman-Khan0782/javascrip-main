@@ -54,7 +54,7 @@ const newArray2=[9,8,7,6,5]
 console.log(newArray2.splice(1,4)); //include last index
 console.log(newArray2.slice(0,3)); //not include last index
 //find
-const findArray=[1,2,3,4,2];
+const findArray=[1,2,3,4,2]; 
 let d=findArray.find((num)=>num % 2===0);
 console.log(d); //2
 //filter

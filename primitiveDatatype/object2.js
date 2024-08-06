@@ -58,22 +58,16 @@ const array=[
     {
         id:1,
         name:"bilal"
-
     }, {
         id:2,
         name:"bilal"
-
     }
     , 
-    {
-        id:1,
+    {id:1,
         name:"bilal"
-
     },
-     {
-        id:1,
+     { id:1,
         name:"bilal"
-
     }
     
 ]
