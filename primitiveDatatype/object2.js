@@ -53,7 +53,7 @@ console.log(obj6);
 obj7={...obj3,...obj4} //this is very useful and important
 console.log(obj7);
 
-//how to access objects value in array
+//how to access objects value in array (most of the time DataBase Array of object)
 const array=[
     {
         id:1,
