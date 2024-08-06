@@ -62,5 +62,12 @@ function2.call(user);//Noman
 function2(user);//undifine
 function2.apply(user);//Noman
 
+// ==========onother way reference value of object ======
+user.greeting= function(){
+  console.log(`my name is : ${this.name}`);
+  
+}
+console.log(user.greeting());
+
 
 
