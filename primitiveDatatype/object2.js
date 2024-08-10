@@ -60,14 +60,14 @@ const array=[
         name:"bilal"
     }, {
         id:2,
-        name:"bilal"
+        name:"Noman"
     }
     , 
-    {id:1,
-        name:"bilal"
+    {id:3,
+        name:"Zeeshan"
     },
-     { id:1,
-        name:"bilal"
+     { id:4,
+        name:"Zubair"
     }
     
 ]
