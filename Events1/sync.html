@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello every one</h1>
+    <button id="stop">Stop</button>
+    <button id="start">Start</button>
+
+</body>
+<script>
+    // setInterval(function(){
+    //     console.log("Noman",Date.now());    
+    // },1000)
+    // ========= 
+    // const setinter=function(){
+    //     console.log("Noman",Date.now());   
+    // }
+    // setInterval(setinter,1000)
+    // ================ 
+    // const clr= setInterval(setinter,1000)
+    // clearInterval(clr)
+
+    // solve problem (task)
+    // stert 
+    let setint;
+    document.getElementById("start").addEventListener('click',function(){
+        const setinter=function(){
+        console.log("Noman",Date.now());   
+    }
+    setint=setInterval(setinter,1000)
+    })
+    // stop 
+    document.getElementById("stop").addEventListener('click',function(){
+clearInterval(setint)
+console.log("stop interval");
+
+    }
+)
+</script>
+</html>

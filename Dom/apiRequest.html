@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- XMLHTTPrequest -->
+    <!-- working 
+          event target -> request ->XMLHTTPrequest               -->
+
+    <!-- 0	UNSENT	Client has been created. open() not called yet.
+          1	OPENED	open() has been called.
+          2	HEADERS_RECEIVED	send() has been called, and headers and status are available.
+          3	LOADING	Downloading; responseText holds partial data.
+          4	DONE	The operation is complete. -->
+    <!-- https://jsonplaceholder.typicode.com/users -->
+  </body>
+</html>
+<script>
+  const url = "https://jsonplaceholder.typicode.com/users";
+  const xmlr = new XMLHttpRequest();
+  console.log(xmlr.readyState);
+  xmlr.open("GET", url);
+ 
+xmlr.onreadystatechange= function(){
+  console.log(xmlr.readyState);
+
+  // console.log(this.responseText);
+  if(xmlr.readyState ===4 && xmlr.status ===200){
+    // console.log(this.responseText);
+    const data= JSON.parse(this.responseText)
+    // console.log(data.website);
+    console.log(typeof data);
+    console.log(data);
+    
+  
+    
+  }
+ 
+}
+  xmlr.send();
+</script>

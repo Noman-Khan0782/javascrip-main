@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    
+    <div class="parent">
+  
+      <div class="day">Monday</div>
+      <div class="day">tuesday</div>
+      <div class="day">wednesday</div>
+      <div class="day">thursday</div>
+    </div>
+  </body>
+  <script>
+    const parent = document.querySelector(".parent");
+    console.log(parent.children[1]);
+    
+    console.log(parent);
+//     //how many children in parent div
+    console.log(parent.children);
+//     // select children element
+    console.log(parent.children[1]);
+//     //find its html
+    console.log(parent.children[1].innerHTML);
+
+//     // it is HtMLcollection forEach , map not working using for loop
+    for (let index = 0; index < parent.children.length; index++) {
+      console.log(parent.children[index].innerHTML);
+    }
+//     // styling
+    parent.children[1].style.color = "red";
+
+// // firstelemt last element access 
+console.log(parent.lastElementChild.innerHTML);
+console.log(parent.firstElementChild.innerHTML);
+
+const dayOne=document.querySelector(".day");
+console.log(dayOne);
+// //go from child to parent
+console.log(dayOne.parentElement.innerHTML);
+
+// //childnodes
+console.log("Node :",parent.childNodes);
+
+  </script>
+</html>
